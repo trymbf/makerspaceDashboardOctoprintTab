@@ -1,17 +1,20 @@
 # Makerspace Dashboard
 
-**TODO:** Describe what your plugin does.
+Adds a tab for any website of choice. In this case Makerspace Dashboard
 
 ## Setup
 
 Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
 or manually using this URL:
 
-    https://github.com/tbf3d/Makerspace Dashboard/archive/master.zip
-
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
+    https://github.com/tbf3d/makerspaceDashboardOctoprintTab/archive/master.zip
 
 ## Configuration
 
-**TODO:** Describe your plugin's configuration options (if any).
+After installing the Makerspace Dashboard plugin, you can configure it by navigating to Settings > Makerspace Dashboard.
+
+Here, you can set the following options:
+
+- **Website URL:** The URL of the website to display in the new tab. Default is `https://tbf3d.com/db`.
+
+This plugin does not require any additional permissions or dependencies.
