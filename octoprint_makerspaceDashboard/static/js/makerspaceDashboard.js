@@ -41,3 +41,24 @@ $(function() {
         ["#tab_plugin_makerspaceDashboard"]
     ]);
 });
+$(function() {
+    function MakerspaceDashboardViewModel(parameters) {
+        var self = this;
+
+        self.onDataUpdaterPluginMessage = function(plugin, data) {
+            if (plugin !== "makerspaceDashboard") {
+                return;
+            }
+
+            if (data.type === "info") {
+                new PNotify({title: 'Info', text: data.msg, type: data.type, hide: data.autoClose});
+            }
+        };
+    }
+
+    OCTOPRINT_VIEWMODELS.push({
+        construct: MakerspaceDashboardViewModel,
+        dependencies: ["settingsViewModel"],
+        elements: ["#tab_plugin_makerspaceDashboard"]
+    });
+});
