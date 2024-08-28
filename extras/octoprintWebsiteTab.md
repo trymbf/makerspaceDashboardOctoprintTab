@@ -1,32 +1,22 @@
 ---
 layout: plugin
 
-id: makerspaceDashboard
-title: Makerspace Dashboard
-description: TODO
+id: websiteTab
+title: Website Tab
+description: Adds a tab to octoprint for any website of choice. 
 authors:
 - Trym Bringsrud Fekjær
 license: AGPLv3
 
-# TODO
-date: today's date in format YYYY-MM-DD, e.g. 2015-04-21
+date: 2024-08-28
 
-homepage: https://github.com/tbf3d/Makerspace Dashboard
-source: https://github.com/tbf3d/Makerspace Dashboard
-archive: https://github.com/tbf3d/Makerspace Dashboard/archive/master.zip
+homepage: https://github.com/trymbf/octoprintWebsiteTab
+source: https://github.com/trymbf/octoprintWebsiteTab
+archive: https://github.com/trymbf/octoprintWebsiteTab/archive/master.zip
 
-# TODO
-# Set this to true if your plugin uses the dependency_links setup parameter to include
-# library versions not yet published on PyPi. SHOULD ONLY BE USED IF THERE IS NO OTHER OPTION!
-#follow_dependency_links: false
-
-# TODO
 tags:
-- a list
-- of tags
-- that apply
-- to your plugin
-- (take a look at the existing plugins for what makes sense here)
+- Website
+- Tab
 
 # TODO
 # When registering a plugin on plugins.octoprint.org, all screenshots should be uploaded not linked from external sites.
@@ -98,4 +88,4 @@ compatibility:
 ---
 
 **TODO**: Longer description of your plugin, configuration examples etc. This part will be visible on the page at
-http://plugins.octoprint.org/plugin/makerspaceDashboard/
+http://plugins.octoprint.org/plugin/WebsiteTab/
