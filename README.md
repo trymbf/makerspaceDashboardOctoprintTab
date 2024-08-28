@@ -1,4 +1,4 @@
-# Website tab
+# Octoprint Website tab
 
 Adds a tab to octoprint for any website of choice. 
 
