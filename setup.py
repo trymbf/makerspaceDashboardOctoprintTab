@@ -4,21 +4,21 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "makerspaceDashboard"
+plugin_identifier = "websiteTab"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_makerspaceDashboard"
+plugin_package = "octoprint_websiteTab"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "Makerspace Dashboard Tab"
+plugin_name = "Website Tab"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "0.1.1"
+plugin_version = "0.1.2"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = "Creates a new tab in OctoPrint with a dashboard for printers."
+plugin_description = "Creates a new tab in OctoPrint with any website you choose."
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
 plugin_author = "Trym Bringsrud Fekjær"
@@ -27,7 +27,7 @@ plugin_author = "Trym Bringsrud Fekjær"
 plugin_author_email = "contact@tbf3d.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/tbf3d/makerspaceDashboardOctoprintTab"
+plugin_url = "https://github.com/trymbf/octoprintWebsiteTab/"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"

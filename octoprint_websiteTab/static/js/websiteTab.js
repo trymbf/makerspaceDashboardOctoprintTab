@@ -21,7 +21,7 @@ $(function() {
         // gets called _after_ the settings have been retrieved from the OctoPrint backend and thus
         // the SettingsViewModel been properly populated.
         self.onBeforeBinding = function() {
-            self.newUrl(self.settings.settings.plugins.makerspaceDashboard.url());
+            self.newUrl(self.settings.settings.plugins.websiteTab.url());
             self.goToUrl();
         }
     }
@@ -38,15 +38,15 @@ $(function() {
         ["settingsViewModel"],
 
         // Finally, this is the list of selectors for all elements we want this view model to be bound to.
-        ["#tab_plugin_makerspaceDashboard"]
+        ["#tab_plugin_websiteTab"]
     ]);
 });
 $(function() {
-    function MakerspaceDashboardViewModel(parameters) {
+    function WebsiteTabViewModel(parameters) {
         var self = this;
 
         self.onDataUpdaterPluginMessage = function(plugin, data) {
-            if (plugin !== "makerspaceDashboard") {
+            if (plugin !== "websiteTab") {
                 return;
             }
 
@@ -57,8 +57,8 @@ $(function() {
     }
 
     OCTOPRINT_VIEWMODELS.push({
-        construct: MakerspaceDashboardViewModel,
+        construct: WebsiteTabViewModel,
         dependencies: ["settingsViewModel"],
-        elements: ["#tab_plugin_makerspaceDashboard"]
+        elements: ["#tab_plugin_websiteTab"]
     });
 });
